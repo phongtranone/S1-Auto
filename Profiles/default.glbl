@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/region-market'</initValue>
+      <name>URL_Region</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'builder101@yopmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1234'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/projects/add'</initValue>
+      <name>URL_Project</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/cost-code'</initValue>
+      <name>URL_CostCodes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/request-types'</initValue>
+      <name>URL_RequestType</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

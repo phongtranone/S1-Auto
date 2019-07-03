@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateCostCodes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77ce414e-650d-408f-b036-8ca5e21b0722</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83a51b15-009b-47eb-aa33-cce954470a05</id>
+      <masked>false</masked>
+      <name>costCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2edaaa73-0858-4edc-ad99-2f1af0a3b60a</id>
+      <masked>false</masked>
+      <name>nameOfCostCode</name>
+   </variable>
+</TestCaseEntity>

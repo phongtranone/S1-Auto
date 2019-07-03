@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>el_Arrow_Role</name>
+   <tag></tag>
+   <elementGuidId>2cfcf4af-59e1-48e6-a812-3f5f1307420d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//nz-select[@formcontrolname='roleId']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//nz-select[@formcontrolname='roleId']</value>
+   </webElementProperties>
+</WebElementEntity>

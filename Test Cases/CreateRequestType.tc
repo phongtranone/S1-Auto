@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateRequestType</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95e9c764-ba25-43f2-9464-8a336a0bbd73</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1523ef97-3004-4e33-b977-34c00f4118cb</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0ed06707-852d-4e90-8bf1-1bac418a3871</id>
+      <masked>false</masked>
+      <name>punchList</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>95114181-14a6-465d-a525-554bd0040b57</id>
+      <masked>false</masked>
+      <name>homeowner</name>
+   </variable>
+</TestCaseEntity>
