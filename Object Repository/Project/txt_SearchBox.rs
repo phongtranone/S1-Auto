@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>column_NameOfProject</name>
+   <name>txt_SearchBox</name>
    <tag></tag>
-   <elementGuidId>b6258ea4-a2f1-401a-96cd-d8a0e7bdcfd3</elementGuidId>
+   <elementGuidId>f841903e-ed5d-463a-af02-9cb340358adf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//td[@tabindex='2']</value>
+         <value>//input[@placeholder='Search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[@tabindex='2']</value>
+      <value>//input[@placeholder='Search']</value>
    </webElementProperties>
 </WebElementEntity>
