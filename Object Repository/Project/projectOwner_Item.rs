@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>projectOwner_Item</name>
+   <tag></tag>
+   <elementGuidId>a1449093-58ea-4369-a9a1-0937feb91ac1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul/li[contains(text(),'${project_Owner}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul/li[contains(text(),'${project_Owner}')]</value>
+   </webElementProperties>
+</WebElementEntity>

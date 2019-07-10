@@ -113,8 +113,8 @@
 	<classpathentry kind="lib" path="C:/Users/phong.tran/Desktop/Katalon_Studio_Windows_64-6.2.0/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/phong.tran/Desktop/Katalon_Studio_Windows_64-6.2.0/plugins/ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar"/>
 	<classpathentry kind="lib" path="C:/Users/phong.tran/Desktop/Katalon_Studio_Windows_64-6.2.0/plugins/com.kms.katalon.preferences_1.0.0.201906110939.jar"/>
-	<classpathentry kind="lib" path="D:/Works/project/RO/ro_ta/RapidOnboder/Drivers/javax.mail.jar"/>
-	<classpathentry kind="lib" path="D:/Works/project/RO/ro_ta/RapidOnboder/Drivers/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/Works/project/S1-Auto/Drivers/javax.mail.jar"/>
+	<classpathentry kind="lib" path="D:/Works/project/S1-Auto/Drivers/xml-apis-1.4.01.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

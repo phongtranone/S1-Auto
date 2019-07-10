@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>55d5d567-5f96-4c29-88b6-4155fcbdb8ae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>016d1b3a-86f1-4afd-94d5-0250b8812773</id>
+      <masked>false</masked>
+      <name>regionName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20e9d2bb-7fce-43db-acd0-64b4c8464258</id>
+      <masked>false</masked>
+      <name>marketName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a416ef1e-6339-4f4f-9173-87829cb24676</id>
+      <masked>false</masked>
+      <name>projectName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3506bc2-c0a9-4610-86f9-c85ae785e9d2</id>
+      <masked>false</masked>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbdc78bf-9876-4e9a-925a-6118780cf2aa</id>
+      <masked>false</masked>
+      <name>costCode</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>322a3fc3-e690-4613-80d9-bc01a92b24fe</id>
+      <masked>false</masked>
+      <name>projectOwner</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ed13754-c654-4890-b952-331974d02081</id>
+      <masked>false</masked>
+      <name>emergencyPhone</name>
+   </variable>
 </TestCaseEntity>
