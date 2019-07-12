@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project,Chrome 75.0.3770.100,,,2019-07-11 02:44:54,2019-07-11 02:45:32,38.435s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewProject,Chrome 75.0.3770.100,,,2019-07-11 02:44:54,2019-07-11 02:45:32,38.160s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-11 02:44:54,2019-07-11 02:44:54,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-11 02:44:54,2019-07-11 02:45:25,30.414s,PASSED
+"projectNameColumn = """"",Chrome 75.0.3770.100,,,2019-07-11 02:45:25,2019-07-11 02:45:25,0.000s,PASSED
+"verifyElementPresent(findTestObject(""Project/icon_RegionDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-11 02:45:25,2019-07-11 02:45:27,1.900s,PASSED
+"click(findTestObject(""Project/icon_RegionDropdown""))",Chrome 75.0.3770.100,,,2019-07-11 02:45:27,2019-07-11 02:45:27,0.115s,PASSED
+"verifyElementPresent(findTestObject(""Project/region_Item"", [""region_name"":regionName]), 2)",Chrome 75.0.3770.100,,,2019-07-11 02:45:27,2019-07-11 02:45:28,0.919s,PASSED
+"click(findTestObject(""Project/region_Item"", [""region_name"":regionName]))",Chrome 75.0.3770.100,,,2019-07-11 02:45:28,2019-07-11 02:45:28,0.083s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/icon_MarketDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-11 02:45:28,2019-07-11 02:45:28,0.269s,PASSED
+"click(findTestObject(""Object Repository/Project/icon_MarketDropdown""))",Chrome 75.0.3770.100,,,2019-07-11 02:45:28,2019-07-11 02:45:29,0.453s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/market_Item""), 2)",Chrome 75.0.3770.100,,,2019-07-11 02:45:29,2019-07-11 02:45:32,3.451s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-11 02:45:32,2019-07-11 02:45:32,0.000s,PASSED

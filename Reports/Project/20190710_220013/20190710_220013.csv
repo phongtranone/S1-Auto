@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project,Chrome 75.0.3770.100,,,2019-07-10 22:00:15,2019-07-10 22:00:47,32.376s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewProject,Chrome 75.0.3770.100,,,2019-07-10 22:00:15,2019-07-10 22:00:47,32.125s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-10 22:00:15,2019-07-10 22:00:15,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-10 22:00:15,2019-07-10 22:00:39,23.935s,PASSED
+"projectNameColumn = """"",Chrome 75.0.3770.100,,,2019-07-10 22:00:39,2019-07-10 22:00:39,0.002s,PASSED
+"verifyElementPresent(findTestObject(""Project/icon_RegionDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:00:39,2019-07-10 22:00:41,1.573s,PASSED
+"click(findTestObject(""Project/icon_RegionDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:41,2019-07-10 22:00:41,0.136s,PASSED
+"verifyElementPresent(findTestObject(""Project/region_Item"", [""region_name"":regionName]), 2)",Chrome 75.0.3770.100,,,2019-07-10 22:00:41,2019-07-10 22:00:42,0.547s,PASSED
+"click(findTestObject(""Project/region_Item"", [""region_name"":regionName]))",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.084s,PASSED
+"markFailed(""Can not find project name"")",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.008s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/Project/icon_MarketDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.020s,PASSED
+"click(findTestObject(""Object Repository/Project/icon_MarketDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.107s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/market_Item""), 2)",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.553s,PASSED
+"click(findTestObject(""Object Repository/Project/market_Item""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:42,0.098s,PASSED
+"setText(findTestObject(""Project/txt_ProjectName""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 22:00:42,2019-07-10 22:00:43,0.299s,PASSED
+"setText(findTestObject(""Project/txt_CostCode""), costCode)",Chrome 75.0.3770.100,,,2019-07-10 22:00:43,2019-07-10 22:00:43,0.222s,PASSED
+"click(findTestObject(""Project/icon_ProjectOwner""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:43,2019-07-10 22:00:43,0.094s,PASSED
+"verifyElementPresent(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:00:43,2019-07-10 22:00:44,0.538s,PASSED
+"click(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]))",Chrome 75.0.3770.100,,,2019-07-10 22:00:44,2019-07-10 22:00:44,0.072s,PASSED
+"setText(findTestObject(""Project/txt_EmergencyPhone""), emergencyPhone)",Chrome 75.0.3770.100,,,2019-07-10 22:00:44,2019-07-10 22:00:44,0.215s,PASSED
+"click(findTestObject(""Project/btn_Create""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:44,2019-07-10 22:00:44,0.108s,PASSED
+navigateToUrl(URL_ProjectList),Chrome 75.0.3770.100,,,2019-07-10 22:00:44,2019-07-10 22:00:46,2.180s,PASSED
+"verifyElementPresent(findTestObject(""Project/txt_SearchBox""), 6)",Chrome 75.0.3770.100,,,2019-07-10 22:00:46,2019-07-10 22:00:47,0.560s,PASSED
+"setText(findTestObject(""Project/txt_SearchBox""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.148s,PASSED
+"takeScreenshot(""text search"")",Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.422s,PASSED
+"click(findTestObject(""Project/icon_Seach""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.097s,PASSED
+"projectNameColumn = getText(findTestObject(""Project/column_NameOfProject""))",Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.053s,PASSED
+if (!(projectNameColumn.equals(projectName))),Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.004s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-10 22:00:47,2019-07-10 22:00:47,0.001s,PASSED

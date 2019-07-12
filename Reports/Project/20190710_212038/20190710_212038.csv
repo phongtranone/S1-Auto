@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project,Chrome 75.0.3770.100,,,2019-07-10 21:20:40,2019-07-10 21:21:19,38.737s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewProject,Chrome 75.0.3770.100,,,2019-07-10 21:20:41,2019-07-10 21:21:19,38.494s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-10 21:20:41,2019-07-10 21:20:41,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-10 21:20:41,2019-07-10 21:21:10,29.301s,PASSED
+"projectNameColumn = """"",Chrome 75.0.3770.100,,,2019-07-10 21:21:10,2019-07-10 21:21:10,0.000s,PASSED
+"verifyElementPresent(findTestObject(""Project/icon_RegionDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 21:21:10,2019-07-10 21:21:13,2.619s,PASSED
+"click(findTestObject(""Project/icon_RegionDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:13,2019-07-10 21:21:13,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Project/region_Item"", [""region_name"":regionName]), 2)",Chrome 75.0.3770.100,,,2019-07-10 21:21:13,2019-07-10 21:21:13,0.561s,PASSED
+"click(findTestObject(""Project/region_Item"", [""region_name"":regionName]))",Chrome 75.0.3770.100,,,2019-07-10 21:21:13,2019-07-10 21:21:13,0.104s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/icon_MarketDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 21:21:13,2019-07-10 21:21:13,0.025s,PASSED
+"click(findTestObject(""Object Repository/Project/icon_MarketDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:13,2019-07-10 21:21:14,0.103s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/market_Item""), 2)",Chrome 75.0.3770.100,,,2019-07-10 21:21:14,2019-07-10 21:21:14,0.547s,PASSED
+"click(findTestObject(""Object Repository/Project/market_Item""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:14,2019-07-10 21:21:14,0.107s,PASSED
+"setText(findTestObject(""Project/txt_ProjectName""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 21:21:14,2019-07-10 21:21:14,0.243s,PASSED
+"setText(findTestObject(""Project/txt_CostCode""), costCode)",Chrome 75.0.3770.100,,,2019-07-10 21:21:14,2019-07-10 21:21:15,0.199s,PASSED
+"click(findTestObject(""Project/icon_ProjectOwner""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:15,2019-07-10 21:21:15,0.087s,PASSED
+"verifyElementPresent(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]), 4)",Chrome 75.0.3770.100,,,2019-07-10 21:21:15,2019-07-10 21:21:15,0.545s,PASSED
+"click(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]))",Chrome 75.0.3770.100,,,2019-07-10 21:21:15,2019-07-10 21:21:15,0.074s,PASSED
+"setText(findTestObject(""Project/txt_EmergencyPhone""), emergencyPhone)",Chrome 75.0.3770.100,,,2019-07-10 21:21:15,2019-07-10 21:21:16,0.194s,PASSED
+"click(findTestObject(""Project/btn_Create""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:16,2019-07-10 21:21:16,0.120s,PASSED
+navigateToUrl(URL_ProjectList),Chrome 75.0.3770.100,,,2019-07-10 21:21:16,2019-07-10 21:21:18,2.119s,PASSED
+"verifyElementPresent(findTestObject(""Project/txt_SearchBox""), 6)",Chrome 75.0.3770.100,,,2019-07-10 21:21:18,2019-07-10 21:21:18,0.613s,PASSED
+"setText(findTestObject(""Project/txt_SearchBox""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 21:21:18,2019-07-10 21:21:19,0.138s,PASSED
+"takeScreenshot(""text search"")",Chrome 75.0.3770.100,,,2019-07-10 21:21:19,2019-07-10 21:21:19,0.475s,PASSED
+"click(findTestObject(""Project/icon_Seach""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:19,2019-07-10 21:21:19,0.095s,PASSED
+"projectNameColumn = getText(findTestObject(""Project/column_NameOfProject""))",Chrome 75.0.3770.100,,,2019-07-10 21:21:19,2019-07-10 21:21:19,0.049s,PASSED
+if (!(projectNameColumn.equals(projectName))),Chrome 75.0.3770.100,,,2019-07-10 21:21:19,2019-07-10 21:21:19,0.004s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-10 21:21:19,2019-07-10 21:21:19,0.000s,PASSED

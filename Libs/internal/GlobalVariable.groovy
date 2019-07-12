@@ -42,6 +42,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object URL_ProjectList
+     
+    /**
+     * <p></p>
+     */
     public static Object URL
      
     /**
@@ -62,6 +67,7 @@ public class GlobalVariable {
             URL_Project = selectedVariables['URL_Project']
             URL_CostCodes = selectedVariables['URL_CostCodes']
             URL_RequestType = selectedVariables['URL_RequestType']
+            URL_ProjectList = selectedVariables['URL_ProjectList']
             URL = selectedVariables['URL']
             timeOut = selectedVariables['timeOut']
             

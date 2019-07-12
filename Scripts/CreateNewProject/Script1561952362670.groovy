@@ -34,8 +34,7 @@ WebUI.click(findTestObject('Object Repository/Project/market_Item'))
 
 WebUI.setText(findTestObject('Project/txt_ProjectName'), projectName)
 
-WebUI.sendKeys(findTestObject('Project/txt_Location'), location)
-
+//WebUI.sendKeys(findTestObject('Project/txt_Location'), location)
 WebUI.setText(findTestObject('Project/txt_CostCode'), costCode)
 
 WebUI.click(findTestObject('Project/icon_ProjectOwner'))
@@ -48,12 +47,21 @@ WebUI.setText(findTestObject('Project/txt_EmergencyPhone'), emergencyPhone)
 
 WebUI.click(findTestObject('Project/btn_Create'))
 
+WebUI.navigateToUrl(GlobalVariable.URL_ProjectList)
+
+WebUI.verifyElementPresent(findTestObject('Project/txt_SearchBox'), 6)
+
 WebUI.setText(findTestObject('Project/txt_SearchBox'), projectName)
+
+WebUI.click(findTestObject('Project/icon_Seach'))
 
 projectNameColumn = WebUI.getText(findTestObject('Project/column_NameOfProject'))
 
 if (!(projectNameColumn.equals(projectName))) {
-    KeywordUtil.markFailed('Can not find project name')
+   
+}else{
+	KeywordUtil.markFailed('Can not find project name')
+	WebUI.takeScreenshot('D://Works//project//S1-Auto//Reports//Project//Image01.png')
 }
 
 @com.kms.katalon.core.annotation.SetUp

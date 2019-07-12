@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project,Chrome 75.0.3770.100,,,2019-07-10 21:51:19,2019-07-10 21:51:39,20.602s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewProject,Chrome 75.0.3770.100,,,2019-07-10 21:51:19,2019-07-10 21:51:39,20.369s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-10 21:51:19,2019-07-10 21:51:19,0.002s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-10 21:51:19,2019-07-10 21:51:37,17.957s,PASSED
+"projectNameColumn = """"",Chrome 75.0.3770.100,,,2019-07-10 21:51:37,2019-07-10 21:51:37,0.000s,PASSED
+"verifyElementPresent(findTestObject(""Project/icon_RegionDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 21:51:37,2019-07-10 21:51:38,1.663s,PASSED
+"click(findTestObject(""Project/icon_RegionDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 21:51:38,2019-07-10 21:51:39,0.136s,PASSED
+"verifyElementPresent(findTestObject(""Project/region_Item"", [""region_name"":regionName]), 2)",Chrome 75.0.3770.100,,,2019-07-10 21:51:39,2019-07-10 21:51:39,0.553s,PASSED
+"click(findTestObject(""Project/region_Item"", [""region_name"":regionName1]))",Chrome 75.0.3770.100,,,2019-07-10 21:51:39,2019-07-10 21:51:39,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-10 21:51:39,2019-07-10 21:51:39,0.000s,PASSED

@@ -34,4 +34,9 @@
       <initValue>'http://builder101.siteoneservices.xyz/request-types'</initValue>
       <name>URL_RequestType</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/projects'</initValue>
+      <name>URL_ProjectList</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

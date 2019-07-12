@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Project,Chrome 75.0.3770.100,,,2019-07-10 22:16:19,2019-07-10 22:16:48,28.832s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewProject,Chrome 75.0.3770.100,,,2019-07-10 22:16:20,2019-07-10 22:16:48,28.605s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-10 22:16:20,2019-07-10 22:16:20,0.000s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-10 22:16:20,2019-07-10 22:16:41,20.864s,PASSED
+"projectNameColumn = """"",Chrome 75.0.3770.100,,,2019-07-10 22:16:41,2019-07-10 22:16:41,0.000s,PASSED
+"verifyElementPresent(findTestObject(""Project/icon_RegionDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:16:41,2019-07-10 22:16:42,1.583s,PASSED
+"click(findTestObject(""Project/icon_RegionDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:42,2019-07-10 22:16:42,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Project/region_Item"", [""region_name"":regionName]), 2)",Chrome 75.0.3770.100,,,2019-07-10 22:16:42,2019-07-10 22:16:43,0.554s,PASSED
+"click(findTestObject(""Project/region_Item"", [""region_name"":regionName]))",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:43,0.077s,PASSED
+"markFailed(""Can not find project name"")",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:43,0.005s,FAILED
+"takeScreenshot(""D://Works//project//S1-Auto//Reports//Project//Image01"")",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:43,0.394s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/icon_MarketDropdown""), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:43,0.021s,PASSED
+"click(findTestObject(""Object Repository/Project/icon_MarketDropdown""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:43,0.097s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Project/market_Item""), 2)",Chrome 75.0.3770.100,,,2019-07-10 22:16:43,2019-07-10 22:16:44,0.550s,PASSED
+"click(findTestObject(""Object Repository/Project/market_Item""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:44,2019-07-10 22:16:44,0.102s,PASSED
+"setText(findTestObject(""Project/txt_ProjectName""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 22:16:44,2019-07-10 22:16:44,0.244s,PASSED
+"setText(findTestObject(""Project/txt_CostCode""), costCode)",Chrome 75.0.3770.100,,,2019-07-10 22:16:44,2019-07-10 22:16:45,0.223s,PASSED
+"click(findTestObject(""Project/icon_ProjectOwner""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:45,2019-07-10 22:16:45,0.094s,PASSED
+"verifyElementPresent(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]), 4)",Chrome 75.0.3770.100,,,2019-07-10 22:16:45,2019-07-10 22:16:45,0.549s,PASSED
+"click(findTestObject(""Project/projectOwner_Item"", [""project_Owner"":projectOwner]))",Chrome 75.0.3770.100,,,2019-07-10 22:16:45,2019-07-10 22:16:45,0.088s,PASSED
+"setText(findTestObject(""Project/txt_EmergencyPhone""), emergencyPhone)",Chrome 75.0.3770.100,,,2019-07-10 22:16:45,2019-07-10 22:16:45,0.195s,PASSED
+"click(findTestObject(""Project/btn_Create""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:45,2019-07-10 22:16:46,0.109s,PASSED
+navigateToUrl(URL_ProjectList),Chrome 75.0.3770.100,,,2019-07-10 22:16:46,2019-07-10 22:16:47,1.762s,PASSED
+"verifyElementPresent(findTestObject(""Project/txt_SearchBox""), 6)",Chrome 75.0.3770.100,,,2019-07-10 22:16:47,2019-07-10 22:16:48,0.569s,PASSED
+"setText(findTestObject(""Project/txt_SearchBox""), projectName)",Chrome 75.0.3770.100,,,2019-07-10 22:16:48,2019-07-10 22:16:48,0.136s,PASSED
+"click(findTestObject(""Project/icon_Seach""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:48,2019-07-10 22:16:48,0.155s,PASSED
+"projectNameColumn = getText(findTestObject(""Project/column_NameOfProject""))",Chrome 75.0.3770.100,,,2019-07-10 22:16:48,2019-07-10 22:16:48,0.056s,PASSED
+if (!(projectNameColumn.equals(projectName))),Chrome 75.0.3770.100,,,2019-07-10 22:16:48,2019-07-10 22:16:48,0.002s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-10 22:16:48,2019-07-10 22:16:48,0.000s,PASSED

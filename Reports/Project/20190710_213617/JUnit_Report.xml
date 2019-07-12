@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Project" time="18" tests="0" failures="0" errors="1">
+    <testsuite name="Project" tests="0" failures="0" errors="1" time="18" timestamp="2019-07-10 21:36:20" hostname="phong.tran - DESKTOP-6R9UECD" id="Test Suites/Project">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213617"/>
+            <property name="logFiles" value="D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213617\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="phong.tran - DESKTOP-6R9UECD"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Chrome 75.0.3770.100"/>
+            <property name="hostAddress" value="192.168.1.148"/>
+            <property name="sessionId" value="cf4d243a241b2ab6c939a459c060bfbb"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/CreateNewProject" classname="Test Cases/CreateNewProject" status="ERROR">
+            <error type="ERROR" message="Test Cases/CreateNewProject FAILED.&#xA;Reason:&#xA;groovy.lang.MissingPropertyException: No such property: regionName1 for class: Script1561952362670&#xD;&#xA;&#x9;at CreateNewProject.run(CreateNewProject:23)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1562819777270.run(TempTestSuite1562819777270.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-10 21:36:20 - [TEST_CASE][ERROR] - Test Cases/CreateNewProject: Test Cases/CreateNewProject FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: regionName1 for class: Script1561952362670&#xD;
+	at CreateNewProject.run(CreateNewProject:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1562819777270.run(TempTestSuite1562819777270.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-10 21:36:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-07-10 21:36:20 - [TEST_STEP][PASSED] - Start setup action : SetUp: Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-10 21:36:20 - [TEST_STEP][PASSED] - commonKeyword.Table.Login(URL_Project): commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-10 21:36:21 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-10 21:36:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-10 21:36:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://builder101.siteoneservices.xyz/projects/add'&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - Text 'builder101@yopmail.com' is set on object 'Object Repository/Login/txt_Email'&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login/txt_Password'&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Sign in' is clicked on&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-10 21:36:36 - [MESSAGE][PASSED] - Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-10 21:36:36 - [TEST_STEP][PASSED] - projectNameColumn = "": null&#xD;
+&#xD;
+2019-07-10 21:36:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/icon_RegionDropdown"), 4): Object 'Object Repository/Project/icon_RegionDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:36:38 - [MESSAGE][PASSED] - Object 'Object Repository/Project/icon_RegionDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Project/icon_RegionDropdown")): Object: 'Object Repository/Project/icon_RegionDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/icon_RegionDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:36:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/region_Item", ["region_name":regionName1]), 2): null&#xD;
+&#xD;
+2019-07-10 21:36:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-07-10 21:36:20 - [TEST_CASE][ERROR] - Test Cases/CreateNewProject: Test Cases/CreateNewProject FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: regionName1 for class: Script1561952362670&#xD;
+	at CreateNewProject.run(CreateNewProject:23)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1562819777270.run(TempTestSuite1562819777270.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-07-10 21:36:20 - [TEST_SUITE][INCOMPLETE] - Project: null</system-out>
+        <system-err>2019-07-10 21:36:20 - [TEST_SUITE][INCOMPLETE] - Project: null</system-err>
+    </testsuite>
+</testsuites>

@@ -115,6 +115,7 @@
 	<classpathentry kind="lib" path="C:/Users/phong.tran/Desktop/Katalon_Studio_Windows_64-6.2.0/plugins/com.kms.katalon.preferences_1.0.0.201906110939.jar"/>
 	<classpathentry kind="lib" path="D:/Works/project/S1-Auto/Drivers/javax.mail.jar"/>
 	<classpathentry kind="lib" path="D:/Works/project/S1-Auto/Drivers/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/phong.tran/Desktop/Katalon_Studio_Windows_64-6.2.0/configuration/plugin/install/13682/1.0.5/katalon-studio-report-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

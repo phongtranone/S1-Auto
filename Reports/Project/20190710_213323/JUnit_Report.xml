@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Project" time="35" tests="1" failures="0" errors="0">
+    <testsuite name="Project" tests="1" failures="0" errors="0" time="35" timestamp="2019-07-10 21:33:24" hostname="phong.tran - DESKTOP-6R9UECD" id="Test Suites/Project">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213323"/>
+            <property name="logFiles" value="D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213323\\execution0.log"/>
+            <property name="attachments" value="D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213323\\text search"/>
+            <property name="hostName" value="phong.tran - DESKTOP-6R9UECD"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Chrome 75.0.3770.100"/>
+            <property name="hostAddress" value="192.168.1.148"/>
+            <property name="sessionId" value="e9081a4ae5f8cf65c6c017ce21bf347a"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/CreateNewProject" classname="Test Cases/CreateNewProject" status="PASSED">
+            <system-out>2019-07-10 21:33:25 - [TEST_CASE][PASSED] - Test Cases/CreateNewProject: Test Cases/CreateNewProject&#xD;
+&#xD;
+2019-07-10 21:33:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-07-10 21:33:25 - [TEST_STEP][PASSED] - Start setup action : SetUp: Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-10 21:33:25 - [TEST_STEP][PASSED] - commonKeyword.Table.Login(URL_Project): commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-10 21:33:25 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-10 21:33:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-10 21:33:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://builder101.siteoneservices.xyz/projects/add'&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - Text 'builder101@yopmail.com' is set on object 'Object Repository/Login/txt_Email'&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login/txt_Password'&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Sign in' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-10 21:33:52 - [MESSAGE][PASSED] - Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-10 21:33:52 - [TEST_STEP][PASSED] - projectNameColumn = "": null&#xD;
+&#xD;
+2019-07-10 21:33:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/icon_RegionDropdown"), 4): Object 'Object Repository/Project/icon_RegionDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Project/icon_RegionDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Project/icon_RegionDropdown")): Object: 'Object Repository/Project/icon_RegionDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/icon_RegionDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/region_Item", ["region_name":regionName]), 2): Object 'Object Repository/Project/region_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Project/region_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Project/region_Item", ["region_name":regionName])): Object: 'Object Repository/Project/region_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/region_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Project/icon_MarketDropdown"), 4): Object 'Object Repository/Project/icon_MarketDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Project/icon_MarketDropdown' is present&#xD;
+&#xD;
+2019-07-10 21:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/icon_MarketDropdown")): Object: 'Object Repository/Project/icon_MarketDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/icon_MarketDropdown' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Project/market_Item"), 2): Object 'Object Repository/Project/market_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Project/market_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Project/market_Item")): Object: 'Object Repository/Project/market_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/market_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Project/txt_ProjectName"), projectName): Text 'Project testing 3' is set on object 'Object Repository/Project/txt_ProjectName'&#xD;
+&#xD;
+2019-07-10 21:33:56 - [MESSAGE][PASSED] - Text 'Project testing 3' is set on object 'Object Repository/Project/txt_ProjectName'&#xD;
+&#xD;
+2019-07-10 21:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Project/txt_CostCode"), costCode): Text 'cost code 1111' is set on object 'Object Repository/Project/txt_CostCode'&#xD;
+&#xD;
+2019-07-10 21:33:56 - [MESSAGE][PASSED] - Text 'cost code 1111' is set on object 'Object Repository/Project/txt_CostCode'&#xD;
+&#xD;
+2019-07-10 21:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Project/icon_ProjectOwner")): Object: 'Object Repository/Project/icon_ProjectOwner' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/icon_ProjectOwner' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/projectOwner_Item", ["project_Owner":projectOwner]), 4): Object 'Object Repository/Project/projectOwner_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:56 - [MESSAGE][PASSED] - Object 'Object Repository/Project/projectOwner_Item' is present&#xD;
+&#xD;
+2019-07-10 21:33:56 - [TEST_STEP][PASSED] - click(findTestObject("Project/projectOwner_Item", ["project_Owner":projectOwner])): Object: 'Object Repository/Project/projectOwner_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/projectOwner_Item' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Project/txt_EmergencyPhone"), emergencyPhone): Text '111222333' is set on object 'Object Repository/Project/txt_EmergencyPhone'&#xD;
+&#xD;
+2019-07-10 21:33:57 - [MESSAGE][PASSED] - Text '111222333' is set on object 'Object Repository/Project/txt_EmergencyPhone'&#xD;
+&#xD;
+2019-07-10 21:33:57 - [TEST_STEP][PASSED] - click(findTestObject("Project/btn_Create")): Object: 'Object Repository/Project/btn_Create' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/btn_Create' is clicked on&#xD;
+&#xD;
+2019-07-10 21:33:57 - [TEST_STEP][PASSED] - navigateToUrl(URL_ProjectList): Navigate to 'http://builder101.siteoneservices.xyz/projects' successfully&#xD;
+&#xD;
+2019-07-10 21:33:58 - [MESSAGE][PASSED] - Navigate to 'http://builder101.siteoneservices.xyz/projects' successfully&#xD;
+&#xD;
+2019-07-10 21:33:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Project/txt_SearchBox"), 6): Object 'Object Repository/Project/txt_SearchBox' is present&#xD;
+&#xD;
+2019-07-10 21:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/Project/txt_SearchBox' is present&#xD;
+&#xD;
+2019-07-10 21:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Project/txt_SearchBox"), projectName): Text 'Project testing 3' is set on object 'Object Repository/Project/txt_SearchBox'&#xD;
+&#xD;
+2019-07-10 21:33:59 - [MESSAGE][PASSED] - Text 'Project testing 3' is set on object 'Object Repository/Project/txt_SearchBox'&#xD;
+&#xD;
+2019-07-10 21:33:59 - [TEST_STEP][PASSED] - takeScreenshot("text search"): Taking screenshot successfully&#xD;
+&#xD;
+2019-07-10 21:34:00 - [MESSAGE][PASSED] - Taking screenshot successfully&#xD;
+[[ATTACHMENT|D:\\Works\\project\\S1-Auto\\Reports\\Project\\20190710_213323\\text search]]&#xD;
+&#xD;
+2019-07-10 21:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Project/icon_Seach")): Object: 'Object Repository/Project/icon_Seach' is clicked on&#xD;
+&#xD;
+2019-07-10 21:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Project/icon_Seach' is clicked on&#xD;
+&#xD;
+2019-07-10 21:34:00 - [TEST_STEP][PASSED] - projectNameColumn = getText(findTestObject("Project/column_NameOfProject")): Text of object 'Object Repository/Project/column_NameOfProject' is: 'Project testing 3'&#xD;
+&#xD;
+2019-07-10 21:34:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Project/column_NameOfProject' is: 'Project testing 3'&#xD;
+&#xD;
+2019-07-10 21:34:00 - [TEST_STEP][PASSED] - if (!(projectNameColumn.equals(projectName))): null&#xD;
+&#xD;
+2019-07-10 21:34:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-10 21:33:24 - [TEST_SUITE][INCOMPLETE] - Project: null</system-out>
+        <system-err>2019-07-10 21:33:24 - [TEST_SUITE][INCOMPLETE] - Project: null</system-err>
+    </testsuite>
+</testsuites>
