@@ -39,4 +39,9 @@
       <initValue>'http://builder101.siteoneservices.xyz/projects'</initValue>
       <name>URL_ProjectList</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/request-for-services/add'</initValue>
+      <name>URL_NewRFS</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

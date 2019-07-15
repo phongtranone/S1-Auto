@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>01f52a20-d977-43f2-94b5-9cc3c35d55fa</testCaseGuid>
+   <variable>
+      <defaultValue>'Sky Center'</defaultValue>
+      <description></description>
+      <id>e5d6492f-03c8-4081-8cfe-178114634eb3</id>
+      <masked>false</masked>
+      <name>project</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lot 001, To Hien Thanh'</defaultValue>
+      <description></description>
+      <id>a5227570-feef-4d73-827d-de8908988d23</id>
+      <masked>false</masked>
+      <name>lot</name>
+   </variable>
+   <variable>
+      <defaultValue>'Request type 1'</defaultValue>
+      <description></description>
+      <id>6abdddb3-652c-4296-8ba6-d5b70a6a9b27</id>
+      <masked>false</masked>
+      <name>requestType</name>
+   </variable>
+   <variable>
+      <defaultValue>'builder 101'</defaultValue>
+      <description></description>
+      <id>444e3f7f-2104-429a-a8fe-95eafa4531b9</id>
+      <masked>false</masked>
+      <name>managedBy</name>
+   </variable>
 </TestCaseEntity>
