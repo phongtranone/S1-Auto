@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="RFS" time="211" tests="0" failures="0" errors="1">
+    <testsuite name="RFS" tests="0" failures="0" errors="1" time="211" timestamp="2019-07-15 22:31:21" hostname="phong.tran - DESKTOP-6R9UECD" id="Test Suites/RFS">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="D:\\Works\\project\\S1-Auto\\Reports\\RFS\\20190715_223119"/>
+            <property name="logFiles" value="D:\\Works\\project\\S1-Auto\\Reports\\RFS\\20190715_223119\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="phong.tran - DESKTOP-6R9UECD"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.2.0.1"/>
+            <property name="browser" value="Chrome 75.0.3770.100"/>
+            <property name="hostAddress" value="192.168.1.148"/>
+            <property name="sessionId" value="2b8092b9b3c087d80031662f33fc64c2"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/CreateNewRFS" classname="Test Cases/CreateNewRFS" status="ERROR">
+            <error type="ERROR" message="Test Cases/CreateNewRFS FAILED.&#xA;Reason:&#xA;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [RFS Details/projectName, 4]&#xA;Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)&#xD;&#xA;&#x9;at CreateNewRFS.run(CreateNewRFS:35)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1563255079416.run(TempTestSuite1563255079416.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-07-15 22:31:21 - [TEST_CASE][ERROR] - Test Cases/CreateNewRFS: Test Cases/CreateNewRFS FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [RFS Details/projectName, 4]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)&#xD;
+	at CreateNewRFS.run(CreateNewRFS:35)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563255079416.run(TempTestSuite1563255079416.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-07-15 22:31:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-07-15 22:31:21 - [TEST_STEP][PASSED] - Start setup action : SetUp: Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-15 22:31:22 - [TEST_STEP][PASSED] - commonKeyword.Table.Login(URL_NewRFS): commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-15 22:31:22 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-07-15 22:31:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-07-15 22:34:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://builder101.siteoneservices.xyz/request-for-services/add'&#xD;
+&#xD;
+2019-07-15 22:34:47 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-07-15 22:34:48 - [MESSAGE][PASSED] - Text 'builder101@yopmail.com' is set on object 'Object Repository/Login/txt_Email'&#xD;
+&#xD;
+2019-07-15 22:34:48 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Login/txt_Password'&#xD;
+&#xD;
+2019-07-15 22:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Sign in' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:48 - [MESSAGE][PASSED] - commonKeyword.Table.Login is PASSED&#xD;
+&#xD;
+2019-07-15 22:34:48 - [MESSAGE][PASSED] - Method 'SetUp' complete successfully&#xD;
+&#xD;
+2019-07-15 22:34:48 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/icon_ProjectDropdown")): Object: 'Object Repository/CreateRFS/icon_ProjectDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/icon_ProjectDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:50 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/item_Project", ["project_name":project])): Object: 'Object Repository/CreateRFS/item_Project' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/item_Project' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:51 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/icon_LotDropdown")): Object: 'Object Repository/CreateRFS/icon_LotDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/icon_LotDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:51 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/item_Lot", ["lot_id":lot])): Object: 'Object Repository/CreateRFS/item_Lot' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/item_Lot' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/icon_RequestTypeDropdown")): Object: 'Object Repository/CreateRFS/icon_RequestTypeDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/icon_RequestTypeDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/item_RequestType", ["request_type":requestType])): Object: 'Object Repository/CreateRFS/item_RequestType' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/item_RequestType' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/icon_ManagedByDropdown")): Object: 'Object Repository/CreateRFS/icon_ManagedByDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/icon_ManagedByDropdown' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [TEST_STEP][PASSED] - click(findTestObject("CreateRFS/item_RFSManagedBy", ["rfs_managedBy":managedBy])): Object: 'Object Repository/CreateRFS/item_RFSManagedBy' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateRFS/item_RFSManagedBy' is clicked on&#xD;
+&#xD;
+2019-07-15 22:34:52 - [TEST_STEP][PASSED] - waitForElementPresent("RFS Details/projectName", 4): null&#xD;
+&#xD;
+2019-07-15 22:34:53 - [TEST_STEP][PASSED] - Start tear down : TearDown: Method 'TearDown' complete successfully&#xD;
+&#xD;
+2019-07-15 22:34:53 - [MESSAGE][PASSED] - Method 'TearDown' complete successfully&#xD;
+&#xD;
+2019-07-15 22:34:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null</system-out>
+            <system-err>2019-07-15 22:31:21 - [TEST_CASE][ERROR] - Test Cases/CreateNewRFS: Test Cases/CreateNewRFS FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [RFS Details/projectName, 4]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)&#xD;
+	at CreateNewRFS.run(CreateNewRFS:35)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1563255079416.run(TempTestSuite1563255079416.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-07-15 22:31:21 - [TEST_SUITE][INCOMPLETE] - RFS: null</system-out>
+        <system-err>2019-07-15 22:31:21 - [TEST_SUITE][INCOMPLETE] - RFS: null</system-err>
+    </testsuite>
+</testsuites>

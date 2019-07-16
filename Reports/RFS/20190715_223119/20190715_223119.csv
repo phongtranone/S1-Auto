@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RFS,Chrome 75.0.3770.100,,,2019-07-15 22:31:21,2019-07-15 22:34:53,3m - 31.645s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewRFS,Chrome 75.0.3770.100,,,2019-07-15 22:31:21,2019-07-15 22:34:53,3m - 31.386s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-15 22:31:21,2019-07-15 22:31:21,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-15 22:31:21,2019-07-15 22:34:48,3m - 26.652s,PASSED
+"click(findTestObject(""CreateRFS/icon_ProjectDropdown""))",Chrome 75.0.3770.100,,,2019-07-15 22:34:48,2019-07-15 22:34:50,2.199s,PASSED
+"click(findTestObject(""CreateRFS/item_Project"", [""project_name"":project]))",Chrome 75.0.3770.100,,,2019-07-15 22:34:50,2019-07-15 22:34:51,0.632s,PASSED
+"click(findTestObject(""CreateRFS/icon_LotDropdown""))",Chrome 75.0.3770.100,,,2019-07-15 22:34:51,2019-07-15 22:34:51,0.119s,PASSED
+"click(findTestObject(""CreateRFS/item_Lot"", [""lot_id"":lot]))",Chrome 75.0.3770.100,,,2019-07-15 22:34:51,2019-07-15 22:34:52,0.642s,PASSED
+"click(findTestObject(""CreateRFS/icon_RequestTypeDropdown""))",Chrome 75.0.3770.100,,,2019-07-15 22:34:52,2019-07-15 22:34:52,0.121s,PASSED
+"click(findTestObject(""CreateRFS/item_RequestType"", [""request_type"":requestType]))",Chrome 75.0.3770.100,,,2019-07-15 22:34:52,2019-07-15 22:34:52,0.626s,PASSED
+"click(findTestObject(""CreateRFS/icon_ManagedByDropdown""))",Chrome 75.0.3770.100,,,2019-07-15 22:34:52,2019-07-15 22:34:52,0.093s,PASSED
+"click(findTestObject(""CreateRFS/item_RFSManagedBy"", [""rfs_managedBy"":managedBy]))",Chrome 75.0.3770.100,,,2019-07-15 22:34:52,2019-07-15 22:34:52,0.086s,PASSED
+"waitForElementPresent(""RFS Details/projectName"", 4)",Chrome 75.0.3770.100,,,2019-07-15 22:34:52,2019-07-15 22:34:52,0.001s,PASSED
+Start tear down : TearDown,Chrome 75.0.3770.100,,,2019-07-15 22:34:53,2019-07-15 22:34:53,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-15 22:34:53,2019-07-15 22:34:53,0.000s,PASSED

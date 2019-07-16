@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_LotDropdown</name>
+   <name>icon_ManagedByDropdown</name>
    <tag></tag>
-   <elementGuidId>b6a62539-bd83-4750-a909-9baa2640fb64</elementGuidId>
+   <elementGuidId>af39098e-4722-429a-ae02-441a13aed105</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='form-group' and descendant::span[contains(text(),'lot')]]//span[@class='fa fa-fw fa-caret-down ui-clickable']</value>
+         <value>//div[@class='form-group' and descendant::label[contains(text(),'RFS managed by ')]]//span[@class='fa fa-fw fa-caret-down ui-clickable']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='form-group' and descendant::span[contains(text(),'lot')]]//span[@class='fa fa-fw fa-caret-down ui-clickable']</value>
+      <value>//div[@class='form-group' and descendant::label[contains(text(),'RFS managed by ')]]//span[@class='fa fa-fw fa-caret-down ui-clickable']</value>
    </webElementProperties>
 </WebElementEntity>
