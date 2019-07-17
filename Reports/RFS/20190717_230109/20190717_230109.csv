@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RFS,Chrome 75.0.3770.100,,,2019-07-17 23:01:11,2019-07-17 23:01:27,16.322s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewRFS,Chrome 75.0.3770.100,,,2019-07-17 23:01:11,2019-07-17 23:01:27,16.110s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-17 23:01:11,2019-07-17 23:01:11,0.000s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-17 23:01:11,2019-07-17 23:01:23,12.018s,PASSED
+"click(findTestObject(""CreateRFS/icon_ProjectDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:01:23,2019-07-17 23:01:25,1.150s,PASSED
+"click(findTestObject(""CreateRFS/item_Project"", [""project_name"":project]))",Chrome 75.0.3770.100,,,2019-07-17 23:01:25,2019-07-17 23:01:25,0.634s,PASSED
+"click(findTestObject(""CreateRFS/icon_LotDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:01:25,2019-07-17 23:01:25,0.119s,PASSED
+"click(findTestObject(""CreateRFS/item_Lot"", [""lot_id"":lot]))",Chrome 75.0.3770.100,,,2019-07-17 23:01:25,2019-07-17 23:01:26,0.583s,PASSED
+"click(findTestObject(""CreateRFS/icon_RequestTypeDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:01:26,2019-07-17 23:01:26,0.096s,PASSED
+"click(findTestObject(""CreateRFS/item_RequestType"", [""request_type"":requestType]))",Chrome 75.0.3770.100,,,2019-07-17 23:01:26,2019-07-17 23:01:27,0.583s,PASSED
+"click(findTestObject(""CreateRFS/icon_ManagedByDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.082s,PASSED
+"click(findTestObject(""CreateRFS/item_RFSManagedBy"", [""rfs_managedBy"":managedBy]))",Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.068s,PASSED
+"click(findTestObject(""CreateRFS/btn_ProceedToReportProblem""))",Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.083s,PASSED
+"waitForElementPresent(findTestObject(""RFS Details/projectName""), 4)",Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.538s,PASSED
+"verifyEqual(findTestObject(""RFS Details/projectName""), project)",Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.056s,FAILED
+Start tear down : TearDown,Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-17 23:01:27,2019-07-17 23:01:27,0.001s,PASSED

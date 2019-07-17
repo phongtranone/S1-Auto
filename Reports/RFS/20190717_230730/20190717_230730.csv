@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RFS,Chrome 75.0.3770.100,,,2019-07-17 23:07:31,2019-07-17 23:07:47,16.043s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewRFS,Chrome 75.0.3770.100,,,2019-07-17 23:07:32,2019-07-17 23:07:47,15.853s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-17 23:07:32,2019-07-17 23:07:32,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-17 23:07:32,2019-07-17 23:07:43,11.757s,PASSED
+"click(findTestObject(""CreateRFS/icon_ProjectDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:07:43,2019-07-17 23:07:45,1.099s,PASSED
+"click(findTestObject(""CreateRFS/item_Project"", [""project_name"":project]))",Chrome 75.0.3770.100,,,2019-07-17 23:07:45,2019-07-17 23:07:45,0.604s,PASSED
+"click(findTestObject(""CreateRFS/icon_LotDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:07:45,2019-07-17 23:07:45,0.115s,PASSED
+"click(findTestObject(""CreateRFS/item_Lot"", [""lot_id"":lot]))",Chrome 75.0.3770.100,,,2019-07-17 23:07:45,2019-07-17 23:07:46,0.588s,PASSED
+"click(findTestObject(""CreateRFS/icon_RequestTypeDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:07:46,2019-07-17 23:07:46,0.097s,PASSED
+"click(findTestObject(""CreateRFS/item_RequestType"", [""request_type"":requestType]))",Chrome 75.0.3770.100,,,2019-07-17 23:07:46,2019-07-17 23:07:47,0.585s,PASSED
+"click(findTestObject(""CreateRFS/icon_ManagedByDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.100s,PASSED
+"click(findTestObject(""CreateRFS/item_RFSManagedBy"", [""rfs_managedBy"":managedBy]))",Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.084s,PASSED
+"click(findTestObject(""CreateRFS/btn_ProceedToReportProblem""))",Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.101s,PASSED
+"waitForElementPresent(findTestObject(""RFS Details/projectName""), 4)",Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.542s,PASSED
+"verifyEqual(getText(findTestObject(""RFS Details/projectName"")), ""fjdfask"")",Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.077s,FAILED
+Start tear down : TearDown,Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-17 23:07:47,2019-07-17 23:07:47,0.000s,PASSED

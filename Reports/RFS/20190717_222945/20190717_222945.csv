@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RFS,Chrome 75.0.3770.100,,,2019-07-17 22:29:55,2019-07-17 22:30:12,16.669s,INCOMPLETE
+,,,,,,,
+Test Cases/CreateNewRFS,Chrome 75.0.3770.100,,,2019-07-17 22:29:55,2019-07-17 22:30:12,16.435s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 75.0.3770.100,,,2019-07-17 22:29:55,2019-07-17 22:29:55,0.001s,PASSED
+Start setup action : SetUp,Chrome 75.0.3770.100,,,2019-07-17 22:29:55,2019-07-17 22:30:08,12.793s,PASSED
+"click(findTestObject(""CreateRFS/icon_ProjectDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 22:30:08,2019-07-17 22:30:09,1.206s,PASSED
+"click(findTestObject(""CreateRFS/item_Project"", [""project_name"":project]))",Chrome 75.0.3770.100,,,2019-07-17 22:30:09,2019-07-17 22:30:10,0.629s,PASSED
+"click(findTestObject(""CreateRFS/icon_LotDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 22:30:10,2019-07-17 22:30:10,0.097s,PASSED
+"click(findTestObject(""CreateRFS/item_Lot"", [""lot_id"":lot]))",Chrome 75.0.3770.100,,,2019-07-17 22:30:10,2019-07-17 22:30:11,0.617s,PASSED
+"click(findTestObject(""CreateRFS/icon_RequestTypeDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 22:30:11,2019-07-17 22:30:11,0.117s,PASSED
+"click(findTestObject(""CreateRFS/item_RequestType"", [""request_type"":requestType]))",Chrome 75.0.3770.100,,,2019-07-17 22:30:11,2019-07-17 22:30:11,0.611s,PASSED
+"click(findTestObject(""CreateRFS/icon_ManagedByDropdown""))",Chrome 75.0.3770.100,,,2019-07-17 22:30:11,2019-07-17 22:30:12,0.089s,PASSED
+"click(findTestObject(""CreateRFS/item_RFSManagedBy"", [""rfs_managedBy"":managedBy]))",Chrome 75.0.3770.100,,,2019-07-17 22:30:12,2019-07-17 22:30:12,0.089s,PASSED
+"waitForElementPresent(""RFS Details/projectName"", 4)",Chrome 75.0.3770.100,,,2019-07-17 22:30:12,2019-07-17 22:30:12,0.002s,PASSED
+Start tear down : TearDown,Chrome 75.0.3770.100,,,2019-07-17 22:30:12,2019-07-17 22:30:12,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 75.0.3770.100,,,2019-07-17 22:30:12,2019-07-17 22:30:12,0.001s,PASSED
