@@ -44,4 +44,9 @@
       <initValue>'http://builder101.siteoneservices.xyz/request-for-services/add'</initValue>
       <name>URL_NewRFS</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://builder101.siteoneservices.xyz/request-for-services/work-order/add/'</initValue>
+      <name>URL_NewWO</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

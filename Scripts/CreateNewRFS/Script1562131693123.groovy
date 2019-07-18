@@ -34,9 +34,9 @@ WebUI.click(findTestObject('CreateRFS/item_RFSManagedBy', [('rfs_managedBy') : m
 
 WebUI.click(findTestObject('CreateRFS/btn_ProceedToReportProblem'))
 
-WebUI.waitForElementPresent(findTestObject('RFS Details/projectName'), 4) //WebUI.closeBrowser()
+WebUI.waitForElementPresent(findTestObject('RFS Details/projectName'), 4) 
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('RFS Details/projectName')), 'fjdfask')
+WebUI.verifyEqual(WebUI.getText(findTestObject('RFS Details/projectName')), project)
 
 @com.kms.katalon.core.annotation.SetUp
 def SetUp() {
@@ -45,5 +45,6 @@ def SetUp() {
 
 @com.kms.katalon.core.annotation.TearDown
 def TearDown() {
+	WebUI.closeBrowser()
 }
 
