@@ -13,9 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('CreateWO/icon_WOTypeDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_WOType', [('WO_Type') : WOType]))
+
+WebUI.click(findTestObject('CreateWO/icon_LocationDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_Location',[('location_value') : Location]))
+
+WebUI.delay(5)
+
 @com.kms.katalon.core.annotation.SetUp
 def SetUp() {
-	CustomKeywords.'commonKeyword.Table.Login'(GlobalVariable.URL_NewWO+'1015505')
+    CustomKeywords.'commonKeyword.Table.Login'(GlobalVariable.URL_NewWO + '1015505')
 }
 
 @com.kms.katalon.core.annotation.TearDown
