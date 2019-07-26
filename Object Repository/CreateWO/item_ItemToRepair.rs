@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>item_ItemToRepair</name>
+   <tag></tag>
+   <elementGuidId>2aa4ab96-6cb8-45f9-9409-2d2df345b6da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul/li[contains(text(),'${itemToRepair_value}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul/li[contains(text(),'${itemToRepair_value}')]</value>
+   </webElementProperties>
+</WebElementEntity>

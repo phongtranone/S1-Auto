@@ -15,13 +15,40 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('CreateWO/icon_WOTypeDropdown'))
 
-WebUI.click(findTestObject('CreateWO/item_WOType', [('WO_Type') : WOType]))
+WebUI.click(findTestObject('CreateWO/item_WOType', [('WO_Type') : woType]))
 
 WebUI.click(findTestObject('CreateWO/icon_LocationDropdown'))
 
-WebUI.click(findTestObject('CreateWO/item_Location',[('location_value') : Location]))
+WebUI.click(findTestObject('CreateWO/item_Location', [('location_value') : location]))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('CreateWO/icon_TradeDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_Trade', [('trade_value') : trade]))
+
+WebUI.click(findTestObject('CreateWO/icon_AssignedToDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_AssignedTo', [('assignedTo_value') : assignedTo]))
+
+WebUI.click(findTestObject('CreateWO/icon_ItemToRepairDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_ItemToRepair', [('itemToRepair_value') : itemToRepair]))
+
+WebUI.click(findTestObject('CreateWO/icon_ProblemDropdown'))
+
+WebUI.click(findTestObject('CreateWO/item_Problem', [('problem_value') : problem]))
+
+WebUI.setText(findTestObject('CreateWO/txt_Summary'), summary)
+
+WebUI.setText(findTestObject('CreateWO/txt_Description'), description)
+
+WebUI.sendKeys(findTestObject('CreateWO/txt_Appointment'), appointment)
+
+WebUI.sendKeys(findTestObject('CreateWO/btn_Create'), Keys.chord(Keys.ENTER))
+
+/*WebUI.verifyElementVisible(findTestObject('CreateWO/btn_Create'))
+WebUI.waitForElementClickable(findTestObject('CreateWO/btn_Create'), 6)
+WebUI.verifyElementClickable(findTestObject('CreateWO/btn_Create'))
+WebUI.click(findTestObject('CreateWO/btn_Create'))*/
 
 @com.kms.katalon.core.annotation.SetUp
 def SetUp() {

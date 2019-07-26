@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>item_AssignedTo</name>
+   <tag></tag>
+   <elementGuidId>4f8c819c-13d4-4d3c-a3cc-49e0ee9b8d4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul/li[contains(text(),'${assignedTo_value}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul/li[contains(text(),'${assignedTo_value}')]</value>
+   </webElementProperties>
+</WebElementEntity>

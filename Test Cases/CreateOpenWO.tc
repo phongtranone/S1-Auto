@@ -10,13 +10,62 @@
       <description></description>
       <id>ebaf6506-9576-45db-8815-f369aa9ffc4c</id>
       <masked>false</masked>
-      <name>WOType</name>
+      <name>woType</name>
    </variable>
    <variable>
       <defaultValue>'Game room'</defaultValue>
       <description></description>
       <id>1a50b9c7-7434-4508-b926-040f68080864</id>
       <masked>false</masked>
-      <name>Location</name>
+      <name>location</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bricklayer'</defaultValue>
+      <description></description>
+      <id>6fcb6ff1-c607-425c-8482-b9d99d443515</id>
+      <masked>false</masked>
+      <name>trade</name>
+   </variable>
+   <variable>
+      <defaultValue>'phong pro subcontractor'</defaultValue>
+      <description></description>
+      <id>152b277b-0794-4750-8b97-b0a8cd63a585</id>
+      <masked>false</masked>
+      <name>assignedTo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Item 01'</defaultValue>
+      <description></description>
+      <id>2ef6cc4b-e301-4148-bb5b-89a8c3dc74e9</id>
+      <masked>false</masked>
+      <name>itemToRepair</name>
+   </variable>
+   <variable>
+      <defaultValue>'Problem 01'</defaultValue>
+      <description></description>
+      <id>f9191580-9033-48fb-b46a-21c07b9408e6</id>
+      <masked>false</masked>
+      <name>problem</name>
+   </variable>
+   <variable>
+      <defaultValue>'WO testing 1'</defaultValue>
+      <description></description>
+      <id>874ec269-009c-47ec-bba3-577b367f5c29</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+   <variable>
+      <defaultValue>'This is description for WO testing 1'</defaultValue>
+      <description></description>
+      <id>b32dd585-5e02-49f9-94e6-3f9345c31b33</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>'07/11/2019 12:00 AM'</defaultValue>
+      <description></description>
+      <id>6a9f84c1-36c3-40b4-a6a3-97b9a01f5fc1</id>
+      <masked>false</masked>
+      <name>appointment</name>
    </variable>
 </TestCaseEntity>
